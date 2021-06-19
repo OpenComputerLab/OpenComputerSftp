@@ -1,0 +1,15 @@
+pluginManagement {
+    repositories {
+        jcenter()
+        maven {
+            name = 'SpongePowered'
+            url = 'https://repo.spongepowered.org/maven/'
+        }
+        gradlePluginPortal()
+    }
+}
+
+rootProject.name = 'OpenComputerSftp'
+include 'core'
+include 'sponge'
+

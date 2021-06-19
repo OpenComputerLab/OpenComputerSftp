@@ -1,0 +1,9 @@
+dependencies {
+    compileOnly 'org.apache.sshd:sshd-sftp:2.7.0'
+
+
+    compileOnly 'org.mindrot:jbcrypt:0.4'
+    compileOnly 'com.google.code.gson:gson:2.8.6'
+    compileOnly 'org.hibernate.orm:hibernate-core:6.0.0.Alpha7'
+    compileOnly 'com.github.eLoli-Community.SodionCore:SodionCore-Orm:29cc62f3f0'
+}
